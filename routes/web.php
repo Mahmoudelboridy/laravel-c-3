@@ -23,4 +23,4 @@ Route::get('/mm',[SsController::class,'mm']);
 Route::post('store',[SsController::class,'store'])->name('store');
 Route::post('delete/{id}',[SsController::class,'delete'])->name('delete');
 Route::get('update/{id}',[SsController::class,'update']);
-Route::post('update/{id}',[SsController::class,'update2'])->name('update');;
+Route::post('update/{id}',[SsController::class,'update2'])->name('update');
